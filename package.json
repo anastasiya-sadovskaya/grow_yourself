@@ -5,12 +5,25 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router-dom": "^4.2.0",
     "react-scripts": "1.0.11"
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "nodemon server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0",
+    "react-dom-server": "0.0.5",
+    "redux": "^3.7.2",
+    "sass-loader": "^6.0.6"
   }
 }
